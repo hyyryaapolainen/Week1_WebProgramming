@@ -1,8 +1,8 @@
-function helloworld() {
+window.onload = function helloworld() {
   document.getElementById("my-title").innerHTML = "My notebook";
   console.log("hello world");
 }
-function addData() {
+window.onload = function addData() {
   var li = document.createElement("li");
   li.innerHTML = document.getElementById("text-area").value;
   document.getElementById("data-list").appendChild(li);
